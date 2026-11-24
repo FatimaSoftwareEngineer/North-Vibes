@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>North Vibes | Travel Northern Pakistan</title>
+  <meta name="description" content="Season-wise guided trips to nine destinations in northern Pakistan.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="#home">North<span>Vibes</span></a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+      <label for="menu-toggle" class="menu-btn" aria-hidden="true"><span></span></label>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Destinations</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a class="nav-cta" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- 1. HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <h1>Meet the mountains of northern Pakistan.</h1>
+        <p class="lead">Nine destinations, planned around the season. Go for blossoms in spring, green meadows in summer, golden leaves in autumn or snow in winter.</p>
+
+        <form class="search-bar" id="searchForm" action="#features">
+          <label>Destination
+            <select id="destination">
+              <option>Hunza Valley</option><option>Skardu</option><option>Fairy Meadows</option>
+              <option>Swat Valley</option><option>Naran and Kaghan</option><option>Neelum Valley</option>
+              <option>Kalash Valleys</option><option>Shogran and Siri Paye</option><option>Passu and Attabad Lake</option>
+            </select>
+          </label>
+          <label>Month
+            <select>
+              <option>January</option><option>February</option><option>March</option><option>April</option>
+              <option>May</option><option>June</option><option>July</option><option>August</option>
+              <option>September</option><option>October</option><option>November</option><option>December</option>
+            </select>
+          </label>
+          <label>Travelers
+            <select>
+              <option>1 to 2 people</option><option>3 to 6 people</option><option>7 to 12 people</option>
+              <option>13 to 20 people</option><option>21 to 30 people</option>
+            </select>
+          </label>
+          <button class="btn btn-primary" type="submit">Find trips</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- 2. FEATURES: 9 destinations (Grid) -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-head">
+          <h2>Where we take you</h2>
+          <p class="section-intro">Nine places, each with the months when it looks its best.</p>
+        </div>
+
+        <div class="features-grid">
+
+          <article class="card">
+            <div class="card-media"><div class="card-img hunza" role="img" aria-label="Hunza Valley"></div><span class="badge">Gilgit-Baltistan</span></div>
+            <div class="card-body">
+              <h3>Hunza Valley</h3>
+              <p>Terraced orchards sit below snow peaks, and Rakaposhi glows pink at sunrise. Old forts, quiet villages and clear air make it the calmest stop in the north.</p>
+              <ul class="season">
+                <li><b>April</b> apricot and cherry blossom</li>
+                <li><b>Jun to Aug</b> fruit season and warm days</li>
+                <li><b>October</b> golden autumn leaves</li>
+              </ul>
+              <a class="more" href="#contact">Plan this trip</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media"><div class="card-img skardu" role="img" aria-label="Skardu"></div><span class="badge">Gilgit-Baltistan</span></div>
+            <div class="card-body">
+              <h3>Skardu</h3>
+              <p>Turquoise lakes, a cold desert with sand dunes and the wide Deosai Plains, all under the Karakoram. Shangrila Lake is the quiet highlight.</p>
+              <ul class="season">
+                <li><b>Jun to Sep</b> Deosai Plains open, wildflowers</li>
+                <li><b>October</b> autumn colour around the lakes</li>
+                <li><b>Dec to Feb</b> snow over the valley and desert</li>
+              </ul>
+              <a class="more" href="#contact">Plan this trip</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media"><div class="card-img fairy" role="img" aria-label="Fairy Meadows"></div><span class="badge">Gilgit-Baltistan</span></div>
+            <div class="card-body">
+              <h3>Fairy Meadows</h3>
+              <p>A short trek through pine forest ends at a green meadow right under Nanga Parbat. The peak turns gold at sunset and the night sky is full of stars.</p>
+              <ul class="season">
+                <li><b>May to Jun</b> fresh grass and cool trek</li>
+                <li><b>Jul to Sep</b> best weather and clear views</li>
+                <li><b>Nov to Apr</b> deep snow, for experienced trekkers</li>
+              </ul>
+              <a class="more" href="#contact">Plan this trip</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media"><div class="card-img swat" role="img" aria-label="Swat Valley"></div><span class="badge">Khyber Pakhtunkhwa</span></div>
+            <div class="card-body">
+              <h3>Swat Valley</h3>
+              <p>Often called the Switzerland of the East, with rivers, deodar forests and wide meadows. Kalam and Ushu forest stay cool even in summer.</p>
+              <ul class="season">
+                <li><b>Mar to Apr</b> blossom in the lower valley</li>
+                <li><b>Jun to Sep</b> Kalam and Mahodand Lake</li>
+                <li><b>Dec to Feb</b> snow and skiing at Malam Jabba</li>
+              </ul>
+              <a class="more" href="#contact">Plan this trip</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media"><div class="card-img naran" role="img" aria-label="Naran and Kaghan"></div><span class="badge">Khyber Pakhtunkhwa</span></div>
+            <div class="card-body">
+              <h3>Naran and Kaghan</h3>
+              <p>Saif ul Malook Lake sits in a bowl of peaks, and the Kunhar river runs beside the road. Lulusar Lake and Babusar Top add high-altitude views.</p>
+              <ul class="season">
+                <li><b>Jun to Sep</b> green valley, lakes and Babusar Top</li>
+                <li><b>Oct to Nov</b> autumn colour and quiet roads</li>
+                <li><b>Dec to Feb</b> snow around Naran (check road status)</li>
+              </ul>
+              <a class="more" href="#contact">Plan this trip</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media"><div class="card-img neelum" role="img" aria-label="Neelum Valley"></div><span class="badge">Azad Kashmir</span></div>
+            <div class="card-body">
+              <h3>Neelum Valley</h3>
+              <p>Waterfalls, a blue-green river and wooden villages. Ride the cable car and walk up to Arang Kel, a village on a ridge above the valley.</p>
+              <ul class="season">
+                <li><b>May to Jun</b> waterfalls at full flow</li>
+                <li><b>Jul to Sep</b> green hills and riverside stays</li>
+                <li><b>Oct to Nov</b> autumn colours</li>
+              </ul>
+              <a class="more" href="#contact">Plan this trip</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media"><div class="card-img kalash" role="img" aria-label="Kalash Valleys"></div><span class="badge">Chitral</span></div>
+            <div class="card-body">
+              <h3>Kalash Valleys</h3>
+              <p>Three green valleys, Bumburet, Rumbur and Birir, with wooden houses and the colourful dress of the Kalash people. Festivals fill them with music and dance.</p>
+              <ul class="season">
+                <li><b>Mid May</b> Chilimjusht spring festival</li>
+                <li><b>Late Aug</b> Uchau harvest festival</li>
+                <li><b>December</b> Chaumos winter festival and snow</li>
+              </ul>
+              <a class="more" href="#contact">Plan this trip</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media"><div class="card-img shogran" role="img" aria-label="Shogran and Siri Paye"></div><span class="badge">Khyber Pakhtunkhwa</span></div>
+            <div class="card-body">
+              <h3>Shogran and Siri Paye</h3>
+              <p>A jeep ride from Shogran leads up to Siri Paye, a high meadow with a small lake and a wide view of the peaks. Mist drifts through the pines each morning.</p>
+              <ul class="season">
+                <li><b>Jun to Sep</b> green meadows, mild weather</li>
+                <li><b>October</b> autumn and cool mornings</li>
+                <li><b>Dec to Feb</b> snow in Shogran (check road status)</li>
+              </ul>
+              <a class="more" href="#contact">Plan this trip</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media"><div class="card-img passu" role="img" aria-label="Passu and Attabad Lake"></div><span class="badge">Gilgit-Baltistan</span></div>
+            <div class="card-body">
+              <h3>Passu and Attabad Lake</h3>
+              <p>Attabad’s turquoise water sits between bare mountains, and the Passu Cones rise like sharp spires above the Hussaini suspension bridge.</p>
+              <ul class="season">
+                <li><b>Apr to May</b> blossom and mild weather</li>
+                <li><b>Jun to Sep</b> boating and glacier walks</li>
+                <li><b>October</b> golden poplar and apricot trees</li>
+              </ul>
+              <a class="more" href="#contact">Plan this trip</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. ABOUT (Flexbox) -->
+    <section class="section about" id="about">
+      <div class="container about-flex">
+        <div class="about-img" role="img" aria-label="Mountain landscape">
+          <div class="about-note">
+            <strong>Planned around the season</strong>
+            Every trip shows the best months, so you see blossom, snow or green meadows at their peak.
+          </div>
+        </div>
+        <div class="about-text">
+          <h2>Why travel with us</h2>
+          <p>We are a small team who grew up in these valleys. Every trip uses local drivers, local guides and family-run hotels, so your money stays in the community.</p>
+          <ul class="points">
+            <li><strong>Groups up to 30</strong>Small enough for real conversations with your guide.</li>
+            <li><strong>Local guides</strong>People who know each trail, village and viewpoint.</li>
+            <li><strong>Clear prices</strong>Transport, hotels and meals are listed before you pay.</li>
+            <li><strong>Safe roads</strong>We check weather and road status every morning.</li>
+            <li><strong>Season-wise plans</strong>We tell you the right month for each place.</li>
+            <li><strong>24/7 support</strong>A real person answers during your whole trip.</li>
+          </ul>
+          <div class="stats">
+            <div><b>9</b><span>destinations</span></div>
+            <div><b>30</b><span>travelers max</span></div>
+            <div><b>24/7</b><span>trip support</span></div>
+          </div>
+          <a class="btn btn-primary" href="#contact">Plan my trip</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 4. FOOTER (Grid) -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="#home">North<span>Vibes</span></a>
+        <p class="footer-note">Guided trips across Gilgit-Baltistan, Khyber Pakhtunkhwa, Chitral and Azad Kashmir.</p>
+        <form class="news" id="newsForm" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+          <input type="hidden" name="form-name" value="newsletter">
+          <p class="hp"><label>Do not fill this out: <input name="bot-field"></label></p>
+          <input type="email" id="newsEmail" name="email" placeholder="Your email" aria-label="Your email" required>
+          <button type="submit">Join</button>
+        </form>
+        <p class="news-msg" id="newsMsg" role="status" aria-live="polite"></p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Destinations</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:fatimahamdani1001@gmail.com">fatimahamdani1001@gmail.com</a></li>
+          <li>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=fatimahamdani1001@gmail.com&su=Trip%20enquiry" target="_blank" rel="noopener">Write on Gmail</a>
+            <button type="button" class="copy-btn" id="copyEmail">Copy email</button>
+          </li>
+          <li><a href="https://www.linkedin.com/in/syeda-fatima-hamdani" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li>Open daily, 9 am to 6 pm</li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Safar North. Built by Syeda Ghulam Fatima Hamdani.</p>
+  </footer>
+
+  <!-- Find trips: select kiye hue destination ke card tak scroll karta hai -->
+  <script>
+    const form = document.getElementById('searchForm');
+    const dest = document.getElementById('destination');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault(); // page ko sirf section tak jump karne se rokta hai
+
+      const place = dest.value;
+      let found = null;
+
+      document.querySelectorAll('.card').forEach(function (card) {
+        card.classList.remove('highlight');
+        if (card.querySelector('h3').textContent.trim() === place) {
+          found = card;
+        }
+      });
+
+      if (!found) return;
+
+      found.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      found.classList.add('highlight');
+
+      setTimeout(function () {
+        found.classList.remove('highlight');
+      }, 4000);
+    });
+  </script>
+
+  <!-- Join form: email Netlify ke zariye Fatima tak pohanchti hai -->
+  <script>
+    const newsForm = document.getElementById('newsForm');
+    const newsEmail = document.getElementById('newsEmail');
+    const newsMsg = document.getElementById('newsMsg');
+
+    function showMsg(text, type) {
+      newsMsg.textContent = text;
+      newsMsg.className = 'news-msg ' + type;
+    }
+
+    newsForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const email = newsEmail.value.trim();
+      const looksValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
+      if (!looksValid) {
+        showMsg('Please enter a valid email address.', 'error');
+        newsEmail.focus();
+        return;
+      }
+
+      showMsg('Sending...', '');
+
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(new FormData(newsForm)).toString()
+      })
+        .then(function (res) {
+          if (!res.ok) throw new Error('Request failed');
+          showMsg('Thank you for joining! We will send you trip updates soon.', 'success');
+          newsForm.reset();
+        })
+        .catch(function () {
+          showMsg('Sorry, something went wrong. Please email us directly.', 'error');
+        });
+    });
+
+    // Copy email button
+    const copyBtn = document.getElementById('copyEmail');
+    copyBtn.addEventListener('click', function () {
+      const address = 'fatimahamdani1001@gmail.com';
+      navigator.clipboard.writeText(address).then(function () {
+        copyBtn.textContent = 'Copied!';
+      }).catch(function () {
+        copyBtn.textContent = address;
+      });
+      setTimeout(function () { copyBtn.textContent = 'Copy email'; }, 2500);
+    });
+  </script>
+
+</body>
+</html>
